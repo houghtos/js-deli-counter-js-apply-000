@@ -11,7 +11,7 @@ function nowServing(line){
   if(line.length > 0) {
     var firstPerson = `Currently serving ${line.shift()}.`;
   }
-return firstPerson
+  return firstPerson
 }
 
 function currentLine(line){
@@ -19,7 +19,7 @@ function currentLine(line){
     var lineReturn = "The line is currently empty."
   }
   else{
-    var lineReturn = "The line is currently empty."
+    var lineReturn = "The line is currently: " + line
   }
-  
+  return line
 }
