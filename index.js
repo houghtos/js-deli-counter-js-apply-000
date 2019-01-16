@@ -14,4 +14,7 @@ function nowServing(line){
 return firstPerson
 }
 
-function 
+function currentLine(line){
+  if (line.length === 0){}
+  
+}
