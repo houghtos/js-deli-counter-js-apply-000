@@ -21,7 +21,7 @@ function currentLine(line){
   else{
     var names = line[0];
     line.splice(0, 1);
-    var lineReturn = "The line is currently: " + names;
+    var lineReturn = "The line is currently: " + names + ".";
   }
   return lineReturn
 }
