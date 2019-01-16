@@ -19,8 +19,7 @@ function currentLine(line){
     var lineReturn = "The line is currently empty."
   }
   else{
-    var names = line[0];
-    line.splice(0, 1);
+    var names = line.entries();
     var lineReturn = "The line is currently: " + names + ".";
   }
   return lineReturn
