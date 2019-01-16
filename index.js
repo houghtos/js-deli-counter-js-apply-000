@@ -21,5 +21,5 @@ function currentLine(line){
   else{
     var lineReturn = "The line is currently: " + line
   }
-  return line
+  return lineReturn
 }
