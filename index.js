@@ -19,6 +19,7 @@ function currentLine(line){
     var lineReturn = "The line is currently empty."
   }
   else{
+    var name
     var lineReturn = "The line is currently: " + line
   }
   return lineReturn
