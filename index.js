@@ -20,7 +20,7 @@ function currentLine(line){
   }
   else{
     var names = []
-    
+    for ()
     var lineReturn = "The line is currently: " + names + ".";
   }
   return lineReturn
