@@ -4,4 +4,9 @@ function takeANumber(line, name){
   return welcomeMessage
 }
 
-function 
+function nowServing(line){
+  if (line.length === 0){
+    var firstPerson = ""
+  }
+  var firstPerson = line[0]
+}
