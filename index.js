@@ -26,7 +26,7 @@ function currentLine(line){
       var tempVar = " " + counter + ". " + name
       names.push(tempVar)
     }
-    var lineReturn = "The line is currently: " + names;
+    var lineReturn = "The line is currently:" + names;
   }
   return lineReturn
 }
