@@ -10,7 +10,7 @@ function nowServing(line){
   }
   
   if(line.length > 0) {
-    var firstPerson = line.shift();
+    var firstPerson = `Currently serving ${line.shift()}.`;
   }
 return firstPerson
 }
