@@ -19,14 +19,14 @@ function currentLine(line){
     var lineReturn = "The line is currently empty."
   }
   else{
-    var names = []
+    var lineNames = []
     for (var j = 0; j < line.length; j++){
       var name = line[j]
       var counter = j + 1
       var tempVar = " " + counter + ". " + name
-      names.push(tempVar)
+      lineNames.push(tempVar)
     }
-    var lineReturn = "The line is currently:" + names;
+    var lineReturn = "The line is currently:" + lineNames;
   }
   return lineReturn
 }
