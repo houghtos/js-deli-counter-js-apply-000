@@ -6,7 +6,13 @@ function takeANumber(line, name){
 
 function nowServing(line){
   if (line.length === 0){
-    var firstPerson = ""
+    var firstPerson = "There is nobody waiting to be served!"
   }
-  var firstPerson = line[0]
+  
+  if(line.length > 0) {
+    var firstPerson = line[0]
+  
+    
+  }
+  
 }
