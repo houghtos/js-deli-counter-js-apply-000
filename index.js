@@ -19,7 +19,7 @@ function currentLine(line){
     var lineReturn = "The line is currently empty."
   }
   else{
-    
+    var lineReturn = "The line is currently empty."
   }
   
 }
