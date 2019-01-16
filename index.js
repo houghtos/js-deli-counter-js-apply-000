@@ -15,6 +15,8 @@ return firstPerson
 }
 
 function currentLine(line){
-  if (line.length === 0){}
+  if (line.length === 0){
+    var lineReturn = 
+  }
   
 }
