@@ -16,7 +16,10 @@ return firstPerson
 
 function currentLine(line){
   if (line.length === 0){
-    var lineReturn = 
+    var lineReturn = "The line is currently empty."
+  }
+  else{
+    
   }
   
 }
