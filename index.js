@@ -23,7 +23,7 @@ function currentLine(line){
     for (var j = 0; j < line.length; j++){
       var name = line[j]
       var counter = j + 1
-      var tempVar = counter + ". " + name + " "
+      var tempVar = " " + counter + ". " + name
       names.push(tempVar)
     }
     var lineReturn = "The line is currently: " + names;
